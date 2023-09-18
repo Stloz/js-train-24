@@ -15,7 +15,7 @@ function task8() {
 
   fetchFakeData()
     .then((resolve) => console.log(resolve))
-    .catch((eroor) => console.log(error));
+    .catch((error) => console.log(error));
 }
 
 // Викликаємо функцію task8
